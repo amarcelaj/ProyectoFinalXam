@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:DogApiRest"
+             x:Class="DogApiRest.MainPage">
+
+    <StackLayout>
+        <!-- Place new controls here -->
+    	<Label Text="APLICACION DE MAQUILLAJE!" 
+           HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" />
+
+        <Label Text="BIENVENIDO! POR FAVOR INGRESAR" 
+           HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" />
+
+        <Button Text="INGRESAR"  HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" x:Name="btnIngreso" Clicked="btnIngreso_Clicked"/>
+    </StackLayout>
+
+</ContentPage>
